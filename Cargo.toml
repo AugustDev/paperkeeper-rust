@@ -1,0 +1,12 @@
+[package]
+name = "paperkeeper-rust"
+version = "0.1.0"
+authors = ["Augustinas Malinauskas <augustinasmal@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+diesel = { version = "1.2.2", features = ["postgres"] }
+dotenv = "0.11.0"
+rocket = "0.4.4"
